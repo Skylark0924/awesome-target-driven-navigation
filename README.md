@@ -1,27 +1,26 @@
-# Target-driven Navigation
+# Awesome Target-driven Navigation
 
 
 
 
-|      Alias      | Target (label, image) | Sensor | SLAM |                          Framework                           | Dataset |   SR   |  SPL   |
-| :-------------: | :-------------------: | :----: | :--: | :----------------------------------------------------------: | :-----: | :----: | :----: |
-|                 |                       |        |      |                                                              |         |        |        |
-| [t-SNE](#t-SNE) |         Image         |  RGB   |  No  |                         ResNet + A3C                         | AI2THOR |   -    |   -    |
-|  [SPTM](#SPTM)  |         Image         |        |      |                                                              |         |        |        |
-|   [NTS](#NTS)   |         Image         |        |      |                                                              |  MP3D   |        |        |
-|                 |    panoramic view     |  RGBD  |  No  | autoencoder model A, the policy  model E, and the goal checking model G |  MP3D   | 0.8125 | 0.6614 |
-|       CMP       |                       |        |      |                                                              |         |        |        |
-|                 |                       |        |      |                                                              |         |        |        |
-|  Scene priors   |         Label         |  RGB   |  No  |                         GCN+LSTM+A3C                         | AI2THOR | 0.354  | 0.109  |
-|      SAVN       |         Label         |  RGB   |  No  |                   ResNet18+GloVe+LSTM+MAML                   | AI2THOR | 0.357  | 0.093  |
-|     MJOLNIR     |         Label         |  RGB   |  No  |                         GCN+LSTM+A3C                         | AI2THOR | 0.653  |  0.21  |
-|                 |         Image         |  RGB   |  No  | attention on 3D knowledge graph  (KG) and target skill extension (TSE) module. | AI2THOR | 0.419  | 0.072  |
-|                 |                       |        |      |                                                              | AI2THOR | 0.607  | 0.386  |
-|                 |                       |        |      |                                                              |         |        |        |
-|                 |                       |        |      |                                                              |         |        |        |
-|                 |                       |        |      |                                                              |         |        |        |
-|                 |                       |        |      |                                                              |         |        |        |
-|                 |                       |        |      |                                                              |         |        |        |
+|      Alias      | Target (label, image) | Sensor  | SLAM |                          Framework                           |  Dataset  |    SR     |    SPL    | Note |
+| :-------------: | :-------------------: | :-----: | :--: | :----------------------------------------------------------: | :-------: | :-------: | :-------: | ---- |
+| [t-SNE](#t-SNE) |         Image         |   RGB   |  No  |                         ResNet + A3C                         |  AI2THOR  |     -     |     -     |      |
+|  [SPTM](#SPTM)  |         Image         |   RGB   |  No  |                          DL + Graph                          | game Doom |     1     |     -     |      |
+|   [NTS](#NTS)   |    panoramic image    | RGB/RGB | Yes  |    Graph Construction + Global Policy +<br />Local Policy    |  Gibson   | 0.55/0.63 | 0.38/0.43 |      |
+|  [PTVN](#PTVN)  |    panoramic image    |  RGBD   |  No  |       autoencoder + policy  model +<br />goal checking       |   MP3D    |  0.8125   |  0.6614   |      |
+|                 |                       |         |      |                                                              |           |           |           |      |
+|       CMP       |         Label         |   RGB   |      |                                                              |           |           |           |      |
+|  Scene priors   |         Label         |   RGB   |  No  |                         GCN+LSTM+A3C                         |  AI2THOR  |   0.354   |   0.109   |      |
+|      SAVN       |         Label         |   RGB   |  No  |                ResNet18+GloVe+<br />LSTM+MAML                |  AI2THOR  |   0.357   |   0.093   |      |
+|     MJOLNIR     |         Label         |   RGB   |  No  |                         GCN+LSTM+A3C                         |  AI2THOR  |   0.653   |   0.21    |      |
+|                 |         Image         |   RGB   |  No  | attention on 3D knowledge graph  (KG) and target skill extension (TSE) module. |  AI2THOR  |   0.419   |   0.072   |      |
+|                 |                       |         |      |                                                              |  AI2THOR  |   0.607   |   0.386   |      |
+|                 |                       |         |      |                                                              |           |           |           |      |
+|                 |                       |         |      |                                                              |           |           |           |      |
+|                 |                       |         |      |                                                              |           |           |           |      |
+|                 |                       |         |      |                                                              |           |           |           |      |
+|                 |                       |         |      |                                                              |           |           |           |      |
 
 
 
@@ -29,19 +28,23 @@
 
 1. **Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning (<a id='t-SNE'>t-SNE</a>)**
 
-   *Yuke Zhu, Roozbeh Mottaghi, Eric Kolve, Joseph J. Lim, Abhinav Gupta, Li Fei-Fei, Ali Farhadi* 
+   *Yuke Zhu, Roozbeh Mottaghi, Eric Kolve, Joseph J. Lim, Abhinav Gupta, Li Fei-Fei, Ali Farhadi*
    ICRA, 2017. [[Paper\]](https://arxiv.org/abs/1609.05143) [[Website\]](https://prior.allenai.org/projects/target-driven-visual-navigation)
 
 2. **Semi-Parametric Topological Memory for Navigation (<a id='SPTM'>SPTM</a>)**
-   *Nikolay Savinov\*, Alexey Dosovitskiy\*, Vladlen Koltun* 
+   *Nikolay Savinov\*, Alexey Dosovitskiy\*, Vladlen Koltun*
    ICLR, 2018. [[Paper\]](https://arxiv.org/pdf/1803.00653.pdf) [[Code\]](https://github.com/nsavinov/SPTM) [[Website\]](https://sites.google.com/view/SPTM)
 
 3. **Neural Topological SLAM for Visual Navigation (<a id='NTS'>NTS</a>)**
 
-   *Devendra Singh Chaplot, Ruslan Salakhutdinov, Abhinav Gupta, Saurabh Gupta* 
+   *Devendra Singh Chaplot, Ruslan Salakhutdinov, Abhinav Gupta, Saurabh Gupta*
    CVPR, 2020. [[Paper\]](https://arxiv.org/pdf/2005.12256.pdf) [[Website\]](https://devendrachaplot.github.io/projects/Neural-Topological-SLAM)
 
-4. **Learning Your Way Without Map or Compass: Panoramic Target  Driven Visual Navigation**
+4. **Learning Your Way Without Map or Compass: Panoramic Target  Driven Visual Navigation (<a id='PTVN'>PTVN</a>)**
+
+   *David Watkins-Valls, Jingxi Xu, Nicholas Waytowich, Peter Allen*
+
+   \[[Paper](https://arxiv.org/pdf/1909.09295.pdf)\] 
 
 
 
