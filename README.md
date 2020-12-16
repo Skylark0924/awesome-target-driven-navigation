@@ -29,24 +29,18 @@
 1. **Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning (<a id='t-SNE'>t-SNE</a>)**
 
    *Yuke Zhu, Roozbeh Mottaghi, Eric Kolve, Joseph J. Lim, Abhinav Gupta, Li Fei-Fei, Ali Farhadi*
-
    ICRA, 2017. [[Paper\]](https://arxiv.org/abs/1609.05143) [[Website\]](https://prior.allenai.org/projects/target-driven-visual-navigation)
 
 2. **Semi-Parametric Topological Memory for Navigation (<a id='SPTM'>SPTM</a>)**
    *Nikolay Savinov\*, Alexey Dosovitskiy\*, Vladlen Koltun*
-   
-ICLR, 2018. [[Paper\]](https://arxiv.org/pdf/1803.00653.pdf) [[Code\]](https://github.com/nsavinov/SPTM) [[Website\]](https://sites.google.com/view/SPTM)
+   ICLR, 2018. [[Paper\]](https://arxiv.org/pdf/1803.00653.pdf) [[Code\]](https://github.com/nsavinov/SPTM) [[Website\]](https://sites.google.com/view/SPTM)
    
 3. **Neural Topological SLAM for Visual Navigation (<a id='NTS'>NTS</a>)**
-
    *Devendra Singh Chaplot, Ruslan Salakhutdinov, Abhinav Gupta, Saurabh Gupta*
-
    CVPR, 2020. [[Paper\]](https://arxiv.org/pdf/2005.12256.pdf) [[Website\]](https://devendrachaplot.github.io/projects/Neural-Topological-SLAM)
 
 4. **Learning Your Way Without Map or Compass: Panoramic Target  Driven Visual Navigation (<a id='PTVN'>PTVN</a>)**
-
    *David Watkins-Valls, Jingxi Xu, Nicholas Waytowich, Peter Allen*
-
    \[[Paper](https://arxiv.org/pdf/1909.09295.pdf)\] 
 
 
