@@ -1,9 +1,11 @@
 #! https://zhuanlan.zhihu.com/p/338404758
+
 ![](https://pic4.zhimg.com/80/v2-e593771d9cc15546f31cfcfaa8459e2a.gif)
+
 # Awesome Target-driven Navigation 资源汇总
 
 |      Alias      | Target | Sensor  | SLAM |                          Framework                           |  Dataset  |    SR     |    SPL    | Note |
-| :-------------------: | :-----: | :--: | :----------------------------------------------------------: | :-------: | :-------: | :-------: | ---- | :--: |
+| :-------------------: | :-----: | :--: | :----------------------------------------------------------: | :-------: | :-------: | :-------: | :----: | :--: |
 | [t-SNE](#t-SNE) |         Image         |   RGB   |  No  |                         ResNet + A3C                         |  AI2THOR  |     -     |     -     |      |
 |  [SPTM](#SPTM)  |         Image         |   RGB   |  No  |                          DL + Graph                          | game Doom |     1     |     -     |      |
 |   [NTS](#NTS)   |    panoramic image    | RGB/RGB | Yes  |    Graph Construction + Global Policy +<br />Local Policy    |  Gibson   | 0.55/0.63 | 0.38/0.43 |      |
