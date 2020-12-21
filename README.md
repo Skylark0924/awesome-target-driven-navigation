@@ -275,5 +275,5 @@ $^\dagger$ For methods designed for single room navigation, I use the result abo
 
 欢迎移步 Github 观看正常版，**记得 Fork & Star 哦！**
 
-[Awesome-Target-driven-Navigation/Skylark0924](https://github.com/Skylark0924/Awesome-Target-driven-Navigation 'card')
+[Awesome-Target-driven-Navigation/Skylark0924](https://github.com/Skylark0924/Awesome-Target-driven-Navigation)
 
