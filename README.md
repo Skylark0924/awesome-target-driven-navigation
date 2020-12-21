@@ -2,8 +2,6 @@
 ![](https://pic4.zhimg.com/80/v2-e593771d9cc15546f31cfcfaa8459e2a.gif)
 # Awesome Target-driven Navigation 资源汇总
 
-![](https://pic4.zhimg.com/80/v2-5806338149bb0303bc696221f420a0f6.png)
-
 |      Alias      | Target | Sensor  | SLAM |                          Framework                           |  Dataset  |    SR     |    SPL    | Note |
 | :-------------------: | :-----: | :--: | :----------------------------------------------------------: | :-------: | :-------: | :-------: | ---- | :--: |
 | [t-SNE](#t-SNE) |         Image         |   RGB   |  No  |                         ResNet + A3C                         |  AI2THOR  |     -     |     -     |      |
@@ -274,4 +272,8 @@ $^\dagger$ For methods designed for single room navigation, I use the result abo
 
 知乎没法显示Summary部分的折叠和表格内部跳转，还不支持目录，格式真的太丑了，**再次请求支持完整版的 Markdown + HTML！！**
 [@知乎小管家](https://www.zhihu.com/people/zhihuadmin)
+
+欢迎移步 Github 观看正常版，**记得 Fork & Star 哦！**
+
+[Awesome-Target-driven-Navigation/Skylark0924](https://github.com/Skylark0924/Awesome-Target-driven-Navigation 'card')
 
