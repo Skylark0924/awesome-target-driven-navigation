@@ -111,12 +111,12 @@ $^\dagger$ For methods designed for single room navigation, I use the result abo
 
    <details>
    <summary>Summary</summary>
-
-   This paper focuses on finding a good **visual representation.**
-
-   ![](https://pic4.zhimg.com/80/v2-673402901ca447c11dc3e97c6f8acd29.png)
+   
+This paper focuses on finding a good **visual representation.**
+   
+![](https://pic4.zhimg.com/80/v2-673402901ca447c11dc3e97c6f8acd29.png)
    </details>
-
+   
 4. **Learning to Learn How to Learn: Self-Adaptive Visual Navigation using Meta-Learning (<a id='SAVN'>SAVN</a>)**
 
    *Mitchell Wortsman, Kiana Ehsani, Mohammad Rastegari, Ali Farhadi, Roozbeh Mottaghi* <br>
