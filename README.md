@@ -64,23 +64,22 @@ $^\dagger$ For methods designed for single room navigation, I use the result abo
    Two key ideas:
    - a unified joint architecture for mapping and planning, such that the mapping is driven by the needs of the task;
    - a spatial memory with the ability to plan given an incomplete set of observations about the world. 
-     
-
+   
    CMP constructs a **top-down belief map** of the world and applies a **differentiable neural net planner** to produce the next action at each time step.
-
+   
    **Network architecture**
-
+   
    ![](https://pic4.zhimg.com/80/v2-43552d5cb2a856237915379ef05291cd.png)
-
+   
    **Architecture of the mapper**
-
+   
    ![](https://pic4.zhimg.com/80/v2-5d49149502c60e56e719faa306980afb.png)
-
+   
    **Architecture of the hierarchical planner**
-
+   
    ![](https://pic4.zhimg.com/80/v2-d07a07b61fe7c345d860729f385adb9f.png)
    </details>
-
+   
 2. **Visual Semantic Navigation using Scene Priors (<a id='Scene_Priors'>Scene Priors</a>)**
 
    *Wei Yang, Xiaolong Wang, Ali Farhadi, Abhinav Gupta, Roozbeh Mottaghi* <br>
@@ -112,11 +111,13 @@ $^\dagger$ For methods designed for single room navigation, I use the result abo
    <details>
    <summary>Summary</summary>
    
-This paper focuses on finding a good **visual representation.**
    
+
+This paper focuses on finding a good **visual representation.**
+
 ![](https://pic4.zhimg.com/80/v2-673402901ca447c11dc3e97c6f8acd29.png)
    </details>
-   
+
 4. **Learning to Learn How to Learn: Self-Adaptive Visual Navigation using Meta-Learning (<a id='SAVN'>SAVN</a>)**
 
    *Mitchell Wortsman, Kiana Ehsani, Mohammad Rastegari, Ali Farhadi, Roozbeh Mottaghi* <br>
